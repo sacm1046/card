@@ -7,7 +7,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -17,6 +17,12 @@ button {
 }
 
 /* Card Style */
+
+.card-group {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
 
 .card {
     border: 10px double orange;
